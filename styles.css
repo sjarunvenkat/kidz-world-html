@@ -24,15 +24,20 @@
 }
 
 .lrg-text {
-  font-size: 50px;
+  font-size: 5vw;
 }
 
 .sml-text {
+  font-size: 2vw;
   color: white;
 }
 
 .categories {
   padding: 100px;
+}
+
+.categories h1 {
+  font-size: 3vw;
 }
 
 .lists {
@@ -82,4 +87,30 @@ footer {
   color: white;
   background-color: black;
   padding: 100px;
+}
+
+@media (max-width: 700px) {
+  .categories {
+    padding: 30px;
+  }
+
+  .categories h1 {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .lists {
+    flex-direction: column;
+    padding: 30px 0px 30px 45px;
+  }
+
+  .listdesc {
+    padding: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+  }
 }
