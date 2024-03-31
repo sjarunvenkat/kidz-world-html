@@ -4,7 +4,7 @@ const items = [
   { name: "Matilda", quantity: 0, dollars: 69, cents: 83 },
   { name: "Harry Potter", quantity: 0, dollars: 69, cents: 83 },
   { name: "The Young Readers", quantity: 0, dollars: 69, cents: 83 },
-  { name: "Diary of a Wimpy Kid", quantity: 0, dollars: 69, cents: 83 }, // Fixed typo
+  { name: "Diary of a Wimpy Kid", quantity: 0, dollars: 69, cents: 83 },
   { name: "Dart Board", quantity: 0, dollars: 69, cents: 83 },
   { name: "Connect four", quantity: 0, dollars: 69, cents: 83 },
   { name: "Jenga", quantity: 0, dollars: 69, cents: 83 },
